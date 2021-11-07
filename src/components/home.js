@@ -2,9 +2,6 @@ import React, { Component, useEffect, useState } from 'react';
 import productpic from "../Product1.jpg";
 import axios from 'axios'
 
-
-
-
 const getProducts = () => {
 
     axios("https://myntra-server.herokuapp.com/products")
@@ -16,9 +13,6 @@ const getProducts = () => {
         })
 
 }
-
-
-
 
 function createProduct(clothes) {
 
